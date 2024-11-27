@@ -75,7 +75,7 @@ int main() {
 	ps->push(70);
 	ps->push(80);
 	ps->pop();
-	cout << ps->top() << "\n堆内存释放";
+	cout << ps->top() << "\n堆内存释放：";
 	delete ps;// 先调用ps->~SeqStack()然后free(ps)
 
 	// 1.开辟内存    2.调用构造函数
