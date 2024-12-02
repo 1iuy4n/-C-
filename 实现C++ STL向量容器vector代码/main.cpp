@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-#include <vector>
 /*
 类模板 => 实现一个C++ STL里面的一个顺序容器 vector 向量容器
 SeqStack
