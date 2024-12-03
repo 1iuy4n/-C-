@@ -44,7 +44,7 @@ private:
 
 	friend CComplex operator+(const CComplex& lhs, const CComplex& rhs);
 	friend ostream& operator<<(ostream& out, const CComplex& src);
-	friend istream& operator>>(istream& in, const CComplex& src);
+	friend istream& operator>>(istream& in, CComplex& src);
 };
 CComplex operator+(const CComplex& lhs, const CComplex& rhs) {
 	return CComplex(lhs.mreal + rhs.mreal, lhs.mimage + rhs.mimage);
@@ -54,9 +54,7 @@ ostream& operator<<(ostream& out, const CComplex& src) {
 	return out;
 }
 istream& operator>>(istream& in, CComplex& src) {
-	int real, image;
-	cin >> real >> image;
-	src = CComplex(real, image);
+	cin >> src.mreal >> src.mimage;
 	return in;
 }
 int main() {
