@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "深入理解new的delete的原理", "深入理解new的delete的原理.vcxproj", "{2079C829-5301-44D6-842B-26A8B5A7BFD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2079C829-5301-44D6-842B-26A8B5A7BFD8}.Debug|x64.ActiveCfg = Debug|x64
+		{2079C829-5301-44D6-842B-26A8B5A7BFD8}.Debug|x64.Build.0 = Debug|x64
+		{2079C829-5301-44D6-842B-26A8B5A7BFD8}.Debug|x86.ActiveCfg = Debug|Win32
+		{2079C829-5301-44D6-842B-26A8B5A7BFD8}.Debug|x86.Build.0 = Debug|Win32
+		{2079C829-5301-44D6-842B-26A8B5A7BFD8}.Release|x64.ActiveCfg = Release|x64
+		{2079C829-5301-44D6-842B-26A8B5A7BFD8}.Release|x64.Build.0 = Release|x64
+		{2079C829-5301-44D6-842B-26A8B5A7BFD8}.Release|x86.ActiveCfg = Release|Win32
+		{2079C829-5301-44D6-842B-26A8B5A7BFD8}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54550899-38FD-4022-92CA-55881E8C747E}
+	EndGlobalSection
+EndGlobal
