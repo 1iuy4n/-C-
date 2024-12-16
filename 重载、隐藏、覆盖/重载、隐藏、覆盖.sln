@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "重载、隐藏、覆盖", "重载、隐藏、覆盖.vcxproj", "{928601F9-091D-41C0-8860-746AFC8A14AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{928601F9-091D-41C0-8860-746AFC8A14AB}.Debug|x64.ActiveCfg = Debug|x64
+		{928601F9-091D-41C0-8860-746AFC8A14AB}.Debug|x64.Build.0 = Debug|x64
+		{928601F9-091D-41C0-8860-746AFC8A14AB}.Debug|x86.ActiveCfg = Debug|Win32
+		{928601F9-091D-41C0-8860-746AFC8A14AB}.Debug|x86.Build.0 = Debug|Win32
+		{928601F9-091D-41C0-8860-746AFC8A14AB}.Release|x64.ActiveCfg = Release|x64
+		{928601F9-091D-41C0-8860-746AFC8A14AB}.Release|x64.Build.0 = Release|x64
+		{928601F9-091D-41C0-8860-746AFC8A14AB}.Release|x86.ActiveCfg = Release|Win32
+		{928601F9-091D-41C0-8860-746AFC8A14AB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBA3262B-3D15-4ADD-829A-5A16D6572FAA}
+	EndGlobalSection
+EndGlobal
